@@ -33,7 +33,7 @@ object Api extends CORSHandler {
 object MockData {
 
   val expenses = Source(List(
-    Expense(LocalDate.now() ,"Ferreira costa", 500.50, "Revestimentos para a churrasqueira"),
-    Expense(LocalDate.now().minusWeeks(2),"Agro Mais", 300.70, "Plantas para paisagismo")
+    Expense(LocalDate.now() ,"Home depot", 500.50, "Back splash "),
+    Expense(LocalDate.now().minusWeeks(2),"Rona", 300.70, "Ornamental plants")
   ))
 }
